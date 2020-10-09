@@ -4,7 +4,7 @@
 
 A basic electronics system that will display Mandalorian characters and animations on a small display using a Raspberry Pi Zero. Use this as a starting point for adding displays to your costume (like a gauntlet). Feel free to copy the design, modify it, or make feature requests. This is the way! 
 
-This guide is still a work in progress
+**This guide is still a work in progress
 
 ## Parts list:
 
@@ -50,13 +50,14 @@ You'll follow 3 main steps to get things setup:
 1) Setup the Raspberry Pi Zero or Zero W
 2) Solder the LCD
 3) Connect power
-4) Optional - customize the sequence
+
+**Optional** - customize the sequence (details below)
 
 That's it, no need to write any code or use any other fancy tools. The default setup will display text sequences, so no editing is required. The character sequences are as close as I can get analyzing many frames from the show and behind the scenes. From there you can make changes to the sequence, or add images or GIF animations.
 
 ### 1a. Raspberry Pi Zero W Setup
 
-These steps only apply to the Zero W board (Wi-Fi version). Setup is simple, we will complete these steps:
+These steps only apply to the Zero W board (Wi-Fi version). If you have a Raspberry Pi Zero follow steps in 1b below. Setup is simple, we will complete these steps:
 - Download the right image to your PC and flash it to the SD card
 - Customize your Wi-Fi setting, so you can access it remotely. This is not required, but another way to connect and configure your MandoPuter if you do not have a keyboard and monitor connected to it
 - Insert the SD card into the Pi and power on
@@ -82,7 +83,7 @@ Change the path to your image file, /dev/sdcard is the path to you SD card devic
 
 WORK IN PROGRESS - I will add details once I have my Pi Zero board and create the images
 
-These steps only apply to the Zero board (no Wi-Fi version). Setup is simple, we will complete these steps:
+These steps only apply to the Zero board (no Wi-Fi version). If you have a Raspberry Pi Zero W follow steps in 1a above. Setup is simple, we will complete these steps:
 - Download the right image to your PC and flash it to the SD card
 - Insert the SD card into the Pi and power on
 
@@ -117,7 +118,7 @@ SparkFun has a nice [tutorial](https://learn.sparkfun.com/tutorials/getting-star
 
 Tom's Hardware has a nice [article](https://www.tomshardware.com/features/raspberry-pi-zero) that goes into the specs and details of the Zero models. It has a getting started guide as well.
 
-Adafruit has a nice [PDF file](https://cdn-learn.adafruit.com/downloads/pdf/introducing-the-raspberry-pi-zero.pdf) that goes through the features of the Raspberry Pi Zero W.
+Adafruit has a nice [PDF guide](https://cdn-learn.adafruit.com/downloads/pdf/introducing-the-raspberry-pi-zero.pdf) that goes through the features of the Raspberry Pi Zero W.
 
 - [Raspberry Pi Help/Guides](https://www.raspberrypi.org/help/)
 - [Raspberry Pi Community](https://www.raspberrypi.org/community/)
