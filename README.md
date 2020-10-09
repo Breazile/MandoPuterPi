@@ -1,6 +1,6 @@
-# MandoPuterPi
+# MandoPuter Pi
 ![Image](MandoPuterPi.jpg)
-# What is a MandoPuter?
+# What is a MandoPuter Pi?
 
 A basic electronics system that will display Mandalorian characters and animations on a small display using a Raspberry Pi Zero. Use this as a starting point for adding displays to your costume (like a gauntlet). Feel free to copy the design, modify it, or make feature requests. This is the way! 
 
@@ -106,7 +106,7 @@ Raspberry Pin | LCD Pin
 22 - GPIO6 | DC or D/C
 
 * Pi pinout details are [here](https://pi4j.com/1.2/pins/model-zerow-rev1.html)
-* The MandoPuterPi supports displays connected via SPI port with the ST7789 chipset. Other SPI displays are possible with different chips, and I will evaluate other options if they are needed. We do not use a display connected through the HDMI port.
+* The MandoPuter Pi supports displays connected via SPI port with the ST7789 chipset. Other SPI displays are possible with different chips, and I will evaluate other options if they are needed. We do not use a display connected through the HDMI port.
 
 ### 3. Insert the SD card and power on the Raspberry Pi
 
