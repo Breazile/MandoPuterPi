@@ -11,15 +11,15 @@ This guide is still a work in progress
 You will need the following parts:
 
 1) One supported display:
-- [1.14" LCD](https://www.adafruit.com/product/4383)  **<--- preferred display for the [pre-Beskar](https://www.etsy.com/listing/751008521/the-mandalorian-bracers?ref=shop_home_active_7&crt=1) gauntlet**
-- [1.30" LCD](https://www.adafruit.com/product/4313)  **<--- preferred display for the [Beskar](https://www.etsy.com/listing/765735752/the-mandalorian-beskar-bracers?ref=shop_home_active_8&crt=1) gauntlet**
+  - [1.14" LCD](https://www.adafruit.com/product/4383)  **<--- preferred display for the [pre-Beskar](https://www.etsy.com/listing/751008521/the-mandalorian-bracers?ref=shop_home_active_7&crt=1) gauntlet**
+  - [1.30" LCD](https://www.adafruit.com/product/4313)  **<--- preferred display for the [Beskar](https://www.etsy.com/listing/765735752/the-mandalorian-beskar-bracers?ref=shop_home_active_8&crt=1) gauntlet**
 2) [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/) or [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) (the Zero W has built-in Wi-Fi and Bluetooth)
 3) 5V power supply (connected to the board, or powered through the micro USB connector)
-- [PiSugar](https://www.tindie.com/products/pisugar/pisugar-battery-for-raspberry-pi-zero/) details [here](https://www.pisugar.com/)
-- [PiSugar2](https://www.tindie.com/products/pisugar/pisugar2-battery-for-raspberry-pi-zero/) details [here](https://www.pisugar.com/)
-- [Zero Lipo](https://blog.pimoroni.com/zero-lipo/) and [LiPoly battery](https://www.adafruit.com/category/916) 1200 mAH or larger. Zero Lipo available [here](https://www.amazon.com/gp/product/B01JO2UK3Q/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
-- [PowerCore 5000](https://www.anker.com/products/variant/powercore-5000/A1109011) or similar USB battery pack
-- [Mi Power Core](https://www.mi.com/sg/pb10000/)
+  - [PiSugar](https://www.tindie.com/products/pisugar/pisugar-battery-for-raspberry-pi-zero/) details [here](https://www.pisugar.com/)
+  - [PiSugar2](https://www.tindie.com/products/pisugar/pisugar2-battery-for-raspberry-pi-zero/) details [here](https://www.pisugar.com/)
+  - [Zero Lipo](https://blog.pimoroni.com/zero-lipo/) and [LiPoly battery](https://www.adafruit.com/category/916) 1200 mAH or larger. Zero Lipo available [here](https://www.amazon.com/gp/product/B01JO2UK3Q/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
+  - [PowerCore 5000](https://www.anker.com/products/variant/powercore-5000/A1109011) or similar USB battery pack
+  - [Mi Power Core](https://www.mi.com/sg/pb10000/)
 4) [MicroSDHC Card](https://www.amazon.com/Sandisk-Ultra-Micro-UHS-I-Adapter/dp/B073K14CVB/ref=sr_1_3?dchild=1&keywords=micro+sd+card&nav_sdd=aps&pd_rd_r=1dbc4bbf-5950-4a95-a9fb-50512beec6d8&pd_rd_w=WMNh9&pd_rd_wg=lEGxd&pf_rd_p=f8813af5-8d61-4988-b701-57bd7e498604&pf_rd_r=BJNATXM0ARFX16F2RKS1&qid=1602266511&refinements=p_n_feature_two_browse-bin%3A6518303011&s=pc&sr=1-3) 16GB preferred, speed class 10
 5) MicroSDHC card reader for your PC - you'll need to flash an image to the card
 6) Small Gauge (22-30) [Wire](https://www.amazon.com/Stranded-Nano-Flexible-Insulated-Electrical/dp/B07DCV7BDD/ref=sr_1_1_sspa?keywords=24+gauge+wire&qid=1577768346&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzR1IxUzhXVlJRMFoxJmVuY3J5cHRlZElkPUEwMjE2ODM0MTRRSVkyQlBIRTZJSiZlbmNyeXB0ZWRBZElkPUEwNzE2MTQ1UURZTURJT0VDUEMzJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==) to connect the display
