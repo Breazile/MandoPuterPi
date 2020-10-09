@@ -91,6 +91,7 @@ These steps only apply to the Zero board (no Wi-Fi version). If you have a Raspb
 
 Solder the display to the Raspberry Pi according to the diagram below (not all display pins are used). Depending upon how you intend to power your Pi, you may not need the 40 pin header. Both the displays are the same, so the wiring is identical. Adafruit has a great [soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering) if you are new to soldering. The only thing they did not mention is adding flux to the solder joint first. That makes it much easier to make a good solder joint, and you only need to touch the parts for a second or two.
 
+
 ![Image](Wiring.png)
 
 Raspberry Pin | LCD Pin
@@ -102,6 +103,7 @@ Raspberry Pin | LCD Pin
 24 - SPI CE0 | TFTCS or TCS
 22 - GPIO6 | DC or D/C
 
+* Pi pinout details are [here](https://pi4j.com/1.2/pins/model-zerow-rev1.html)
 * The MandoPuterPi supports displays connected via SPI port with the ST7789 chipset. Other SPI displays are possible with different chips, and I will evaluate other options if they are needed. We do not use a display connected through the HDMI port.
 
 ### 3. Insert the SD card and power on the Raspberry Pi
