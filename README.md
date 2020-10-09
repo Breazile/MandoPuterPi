@@ -79,6 +79,8 @@ As an alternative you can use dd on GNU/Linux or macOS:
 
 Change the path to your image file, /dev/sdcard is the path to you SD card device
 
+ Configure your Wi-Fi, and copy the wpa_supplicant.conf file to the root of your SD card. More details [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
+
 ### 1b. Raspberry Pi Zero Setup
 
 WORK IN PROGRESS - I will add details once I have my Pi Zero board and create the images
