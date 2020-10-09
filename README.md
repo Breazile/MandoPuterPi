@@ -1,4 +1,3 @@
-# MandoPuter Pi
 ![Image](MandoPuterPi.jpg)
 # What is a MandoPuter Pi?
 
