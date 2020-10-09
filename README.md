@@ -104,7 +104,7 @@ Raspberry Pin | LCD Pin
 24 - SPI CE0 | TFTCS or TCS
 22 - GPIO6 | DC or D/C
 
-* Pi pinout details are [here](https://pi4j.com/1.2/pins/model-zerow-rev1.html)
+* Raspberry Pi pinout details are documented [here](https://pi4j.com/1.2/pins/model-zerow-rev1.html)
 * The MandoPuter Pi supports displays connected via SPI port with the ST7789 chipset. Other SPI displays are possible with different chips, and I will evaluate other options if they are needed. We do not use a display connected through the HDMI port.
 
 ### 3. Insert the SD card and power on the Raspberry Pi
