@@ -63,14 +63,14 @@ That's it, no need to write any code or use any other fancy tools. The default s
 These steps only apply to the **Raspberry Pi Zero W** board (Wi-Fi version). If you have a **Raspberry Pi Zero** follow the steps in 1b below. Setup is simple, we will complete the following:
 1) Download the right image :floppy_disk: to your PC and flash it to the SD card
 2) Customize your Wi-Fi setting, so you can access it remotely. This is not required, but another way to connect and configure your MandoPuter if you do not have a keyboard and monitor connected to it
-3) Insert the SD card into the Pi and power on
+3) Insert the SD card into the Pi
 
-You will need to download one of the following images depending upon which display you are using:
+**1a. You will need to download one of the following images depending upon which display you are using:**
 
 * Raspberry Pi Zero W with 1.3" display (best for the Beskar gauntlet)
 * Raspberry Pi Zero W with 1.14" display (best for the pre-Beskar gauntlet)
 
-**Now we will need to flash the image to the SD card**
+**1b. Now we will need to flash the image to the SD card**
 
 - Download [balenaEtcher](https://www.balena.io/etcher/) and install it on your PC or Mac
 - Connect an SD card reader with the SD card inside
@@ -82,7 +82,9 @@ As an alternative you can use dd on GNU/Linux or macOS:
 
 Change the path to your image file, /dev/sdcard is the path to you SD card device
 
- Configure your Wi-Fi, and copying the **wpa_supplicant.conf** file to the root of your SD card. More details [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
+**2. Configure your Wi-Fi, and copying the **wpa_supplicant.conf** file to the root of your SD card. More details [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
+
+**3. Insert the SD card into the Raspberry Pi** 
 
 ### 1b. Raspberry Pi Zero Setup
 
@@ -94,8 +96,7 @@ These steps only apply to the **Raspberry Pi Zero** board (no Wi-Fi version). If
 
 ### 2. Solder the LCD
 
-Solder the display to the Raspberry Pi according to the diagram below (not all display pins are used). Depending upon how you intend to power your Pi, you may not need the 40 pin header. Both the displays are the same, so the wiring is identical. Adafruit has a great [soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering) if you are new to soldering. The only thing they did not mention is adding flux to the solder joint first. That makes it much easier to make a good solder joint, and you only need to touch the parts for a second or two.
-
+Solder the display to the Raspberry Pi according to the diagram below (not all display pins are used). Depending upon how you intend to power your Pi, you may not need a 40 pin header. Both the displays are the same, so the wiring is identical. Adafruit has a great [soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering) if you are new to soldering. The only thing they did not mention is adding flux to the solder joint first. That makes it much easier to make a good solder joint, and you only need to touch the parts for a second or two.
 
 ![Image](Wiring.png)
 
@@ -109,7 +110,7 @@ Raspberry Pin | LCD Pin
 22 - GPIO6 | DC or D/C
 
 * Raspberry Pi pinout details are documented [here](https://pi4j.com/1.2/pins/model-zerow-rev1.html)
-* The MandoPuter Pi supports displays connected via SPI port with the ST7789 chipset. Other SPI displays are possible with different chips, and I will evaluate other options if they are needed. We do not use a display connected through the HDMI port.
+* The MandoPuter Pi supports displays connected via SPI port with the ST7789 chipset. Other SPI displays are possible with different chips, and I will evaluate other options if they are needed. We do not use a display connected through the HDMI port other than configuring the sequence.
 
 ### 3. Insert the SD card and power on the Raspberry Pi
 
@@ -118,6 +119,12 @@ Coming soon
 ### 4. Optional - customize your setup
 
 Coming soon
+
+These are 2 scripts that you can modify to customize what is shown on the display:
+* **showtext.py** - Displays text sequences followed by graphics sequences
+* **showgif.py** - Displays animated GIF files on the display
+
+You can modify these scripts, and then copy one to **autorun.py** so it will run automatically on boot.
 
 ## Want to know more?
 
