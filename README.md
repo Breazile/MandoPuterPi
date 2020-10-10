@@ -121,10 +121,10 @@ Coming soon
 Coming soon
 
 These are 2 scripts that you can modify to customize what is shown on the display:
-* **showtext.py** - Displays text sequences followed by graphics sequences
-* **showgif.py** - Displays animated GIF files on the display
+* **/home/pi/mandoputer/showtext.py** - Displays text sequences followed by graphics sequences
+* **/home/pi/mandoputer/showgif.py** - Displays animated GIF files on the display
 
-You can modify these scripts, and then copy one to **autorun.py** so it will run automatically on boot.
+You can modify these scripts, and then copy one to **/home/pi/mandoputer/autorun.py** so it will run automatically on boot.
 
 ## Want to know more?
 
