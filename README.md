@@ -28,9 +28,9 @@ You will need the following parts:
 6. Small Gauge (22-30) [Wire](https://www.amazon.com/Stranded-Nano-Flexible-Insulated-Electrical/dp/B07DCV7BDD/ref=sr_1_1_sspa?keywords=24+gauge+wire&qid=1577768346&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzR1IxUzhXVlJRMFoxJmVuY3J5cHRlZElkPUEwMjE2ODM0MTRRSVkyQlBIRTZJSiZlbmNyeXB0ZWRBZElkPUEwNzE2MTQ1UURZTURJT0VDUEMzJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==) to connect the display
 
 ## Optional parts if you want to log in locally to customize the display sequence:
-Unlike the Zero, the Zero W has Wi-Fi, so you can SSH into it remotely
+Unlike the Zero, the Zero W has Wi-Fi, so you can SSH into it remotely without the need for a keyboard, mouse, and monitor
 
-1) [Micro USB to USB OTG adapter](https://www.amazon.com/Ksmile%C2%AE-Female-Adapter-SamSung-tablets/dp/B01C6032G0/ref=sr_1_5?dchild=1&keywords=micro+usb+to+usb&qid=1602266728&sr=8-5) for connecting a wireless keyboard/mouse
+1) [Micro USB to USB OTG adapter](https://www.amazon.com/Ksmile%C2%AE-Female-Adapter-SamSung-tablets/dp/B01C6032G0/ref=sr_1_5?dchild=1&keywords=micro+usb+to+usb&qid=1602266728&sr=8-5) for connecting a wireless keyboard/mouse combo - or:
 2) [Micro USB hub](https://www.amazon.com/gp/product/B01JL837X8/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) is another option if you need to connect more than one USB device to the Raspberry Pi
 3) [Keyboard and Mouse](https://www.amazon.com/gp/product/B00Z81U3YY/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) These can be separate, or a combo unit like I have linked here
 4) [Micro HDMI adapter](https://www.amazon.com/GearIt-Micro-HDMI-Adapter-Type/dp/B00V5KRF66/ref=sr_1_8?dchild=1&keywords=micro+hdmi+to+hdmi+adapter&qid=1602266935&s=electronics&sr=1-8) to connect and external monitor (you'll need an HDMI monitor and cable)
@@ -50,25 +50,25 @@ Unlike the Zero, the Zero W has Wi-Fi, so you can SSH into it remotely
 
 You'll follow 3 main steps to get things setup:
 
-1) Setup the Raspberry Pi Zero or Zero W
+1) Setup the Raspberry Pi Zero or Zero W (flash the image to the SD card)
 2) Solder the LCD
 3) Connect power
 
-**Optional** - customize the sequence (details below)
+**Optional** - customize the character sequence and/or add graphics (details below)
 
 That's it, no need to write any code or use any other fancy tools. The default setup will display text sequences, so no editing is required. The character sequences are as close as I can get analyzing many frames from the show and behind the scenes. From there you can make changes to the sequence, or add images or GIF animations.
 
 ### 1a. Raspberry Pi Zero W Setup
 
-These steps only apply to the Zero W board (Wi-Fi version). If you have a Raspberry Pi Zero follow steps in 1b below. Setup is simple, we will complete these steps:
-- Download the right image :floppy_disk: to your PC and flash it to the SD card
-- Customize your Wi-Fi setting, so you can access it remotely. This is not required, but another way to connect and configure your MandoPuter if you do not have a keyboard and monitor connected to it
-- Insert the SD card into the Pi and power on
+These steps only apply to the **Raspberry Pi Zero W** board (Wi-Fi version). If you have a **Raspberry Pi Zero** follow the steps in 1b below. Setup is simple, we will complete the following:
+* Download the right image :floppy_disk: to your PC and flash it to the SD card
+* Customize your Wi-Fi setting, so you can access it remotely. This is not required, but another way to connect and configure your MandoPuter if you do not have a keyboard and monitor connected to it
+* Insert the SD card into the Pi and power on
 
 You will need to download one of the following images depending upon which display you are using:
 
-- Raspberry Pi Zero W with 1.3" display (best for the Beskar gauntlet)
-- Raspberry Pi Zero W with 1.14" display (best for the pre-Beskar gauntlet)
+* Raspberry Pi Zero W with 1.3" display (best for the Beskar gauntlet)
+* Raspberry Pi Zero W with 1.14" display (best for the pre-Beskar gauntlet)
 
 Now we will need to flash the image to the SD card
 
@@ -82,13 +82,13 @@ As an alternative you can use dd on GNU/Linux or macOS:
 
 Change the path to your image file, /dev/sdcard is the path to you SD card device
 
- Configure your Wi-Fi, and copy the wpa_supplicant.conf file to the root of your SD card. More details [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
+ Configure your Wi-Fi, and copying the **wpa_supplicant.conf** file to the root of your SD card. More details [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
 
 ### 1b. Raspberry Pi Zero Setup
 
 WORK IN PROGRESS - I will add details once I have my Pi Zero board and create the images
 
-These steps only apply to the Zero board (no Wi-Fi version). If you have a Raspberry Pi Zero W follow steps in 1a above. Setup is simple, we will complete these steps:
+These steps only apply to the **Raspberry Pi Zero** board (no Wi-Fi version). If you have a **Raspberry Pi Zero W** follow steps in 1a above. Setup is simple, we will complete these steps:
 - Download the right image to your PC and flash it to the SD card
 - Insert the SD card into the Pi and power on
 
