@@ -61,16 +61,16 @@ That's it, no need to write any code or use any other fancy tools. The default s
 ### 1a. Raspberry Pi Zero W Setup
 
 These steps only apply to the **Raspberry Pi Zero W** board (Wi-Fi version). If you have a **Raspberry Pi Zero** follow the steps in 1b below. Setup is simple, we will complete the following:
-* Download the right image :floppy_disk: to your PC and flash it to the SD card
-* Customize your Wi-Fi setting, so you can access it remotely. This is not required, but another way to connect and configure your MandoPuter if you do not have a keyboard and monitor connected to it
-* Insert the SD card into the Pi and power on
+1) Download the right image :floppy_disk: to your PC and flash it to the SD card
+2) Customize your Wi-Fi setting, so you can access it remotely. This is not required, but another way to connect and configure your MandoPuter if you do not have a keyboard and monitor connected to it
+3) Insert the SD card into the Pi and power on
 
 You will need to download one of the following images depending upon which display you are using:
 
 * Raspberry Pi Zero W with 1.3" display (best for the Beskar gauntlet)
 * Raspberry Pi Zero W with 1.14" display (best for the pre-Beskar gauntlet)
 
-Now we will need to flash the image to the SD card
+**Now we will need to flash the image to the SD card**
 
 - Download [balenaEtcher](https://www.balena.io/etcher/) and install it on your PC or Mac
 - Connect an SD card reader with the SD card inside
