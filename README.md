@@ -1,7 +1,7 @@
 ![Image](MandoPuterPi.jpg)
 # What is a MandoPuter Pi?
 
-A basic electronics system that will display Mandalorian characters and animations on a small display using a Raspberry Pi Zero. Use this as a starting point for adding displays to your costume (like a gauntlet). Feel free to copy the design, modify it, or make feature requests. This is the way! 
+A basic electronics system that will display Mandalorian characters and animations on a small display using a [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/). Use this as a starting point for adding displays to your costume (like a gauntlet). Feel free to copy the design, modify it, or make feature requests. This is the way! 
 
 What is the difference between the original MandoPuter and a Mandoputer Pi?
 * The original [MandoPuter](https://github.com/Breazile/MandoPuter) has a longer battery life, but is best suited for text and one image
