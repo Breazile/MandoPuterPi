@@ -78,13 +78,11 @@ These steps only apply to the **Raspberry Pi Zero W** board (Wi-Fi version). If 
 - Select the SD card you wish to write your image to
 - Review your selections, then click Flash! to begin writing data to the SD card
 
-As an alternative you can use dd on GNU/Linux or macOS:
+As an alternative you can use dd on GNU/Linux or macOS: Change the path to your image file, /dev/sdcard is the path to your SD card device
 
-Change the path to your image file, /dev/sdcard is the path to you SD card device
+**2. Configure your Wi-Fi by copying the wpa_supplicant.conf file to the root of your SD card.** More details [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
 
-**2. Configure your Wi-Fi, and copying the **wpa_supplicant.conf** file to the root of your SD card. More details [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
-
-**3. Insert the SD card into the Raspberry Pi** 
+**3. Insert the SD card into the Raspberry Pi** You can power it up to see if it will boot if you connect it to an external monitor. If not go to step 2 below and solder the LCD. 
 
 ### 1b. Raspberry Pi Zero Setup
 
@@ -118,7 +116,7 @@ Coming soon
 
 ### 4. Optional - customize your setup
 
-Coming soon
+More detail coming soon
 
 These are 2 scripts that you can modify to customize what is shown on the display:
 * **/home/pi/mandoputer/showtext.py** - Displays text sequences followed by graphics sequences
