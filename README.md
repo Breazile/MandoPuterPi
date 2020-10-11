@@ -17,7 +17,7 @@ You will need the following parts:
     * [1.14" LCD](https://www.adafruit.com/product/4383)  **<--- preferred display for the [pre-Beskar](https://www.etsy.com/listing/751008521/the-mandalorian-bracers?ref=shop_home_active_7&crt=1) gauntlet**
     * [1.30" LCD](https://www.adafruit.com/product/4313)  **<--- preferred display for the [Beskar](https://www.etsy.com/listing/765735752/the-mandalorian-beskar-bracers?ref=shop_home_active_8&crt=1) gauntlet**
 2. [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/) or [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) (the Zero W has built-in Wi-Fi and Bluetooth)
-3. 5V power supply (connected to the board, or powered through the micro USB connector)
+3. Suggested 5V power supplies (connected to the board, or powered through the micro USB connector)
     * [PiSugar](https://www.tindie.com/products/pisugar/pisugar-battery-for-raspberry-pi-zero/) product page [here](https://www.pisugar.com/)
     * [PiSugar2](https://www.tindie.com/products/pisugar/pisugar2-battery-for-raspberry-pi-zero/) product page [here](https://www.pisugar.com/)
     * [Zero Lipo](https://blog.pimoroni.com/zero-lipo/) and [LiPoly battery](https://www.adafruit.com/category/916) 1200 mAH or larger. Zero Lipo available on [Amazon](https://www.amazon.com/gp/product/B01JO2UK3Q/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
