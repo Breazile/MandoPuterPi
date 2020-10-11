@@ -30,7 +30,7 @@ You will need the following parts:
 ## Optional parts if you want to log in locally to customize the display sequence:
 Unlike the Zero, the Zero W has Wi-Fi, so you can SSH into it remotely without the need for a keyboard, mouse, and monitor
 
-1) [Micro USB to USB OTG adapter](https://www.amazon.com/Ksmile%C2%AE-Female-Adapter-SamSung-tablets/dp/B01C6032G0/ref=sr_1_5?dchild=1&keywords=micro+usb+to+usb&qid=1602266728&sr=8-5) for connecting a wireless keyboard/mouse combo - or:
+1) [Micro USB to USB OTG adapter](https://www.amazon.com/Ksmile%C2%AE-Female-Adapter-SamSung-tablets/dp/B01C6032G0/ref=sr_1_5?dchild=1&keywords=micro+usb+to+usb&qid=1602266728&sr=8-5) for connecting a wireless keyboard/mouse combo - or -
 2) [Micro USB hub](https://www.amazon.com/gp/product/B01JL837X8/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) is another option if you need to connect more than one USB device to the Raspberry Pi
 3) [Keyboard and Mouse](https://www.amazon.com/gp/product/B00Z81U3YY/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) These can be separate, or a combo unit like I have linked here
 4) [Micro HDMI adapter](https://www.amazon.com/GearIt-Micro-HDMI-Adapter-Type/dp/B00V5KRF66/ref=sr_1_8?dchild=1&keywords=micro+hdmi+to+hdmi+adapter&qid=1602266935&s=electronics&sr=1-8) to connect and external monitor (you'll need an HDMI monitor and cable)
