@@ -67,8 +67,8 @@ These steps only apply to the **Raspberry Pi Zero W** board (Wi-Fi version). If 
 
 **1a. You will need to download one of the following images depending upon which display you are using:**
 
-* Raspberry Pi Zero W with 1.3" display (best for the Beskar gauntlet)
-* Raspberry Pi Zero W with 1.14" display (best for the pre-Beskar gauntlet)
+* [Raspberry Pi Zero W with 1.3" display](https://drive.google.com/file/d/1vukrPMTKi5wfDWzsYp8qWlQ3P56h42mr/view?usp=sharing) (best for the Beskar gauntlet)
+* [Raspberry Pi Zero W with 1.14" display](https://drive.google.com/file/d/1l98J3hf_Yy0vpeedQ-yXtrtsyNcRdKSh/view?usp=sharing) (best for the pre-Beskar gauntlet)
 
 **1b. Now we will need to flash the image to the SD card**
 
