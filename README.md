@@ -65,12 +65,12 @@ These steps only apply to the **Raspberry Pi Zero W** board (Wi-Fi version). If 
 2) Customize your Wi-Fi setting, so you can access it remotely. This is not required, but another way to connect and configure your MandoPuter if you do not have a keyboard and monitor connected to it
 3) Insert the SD card into the Pi
 
-**1a. You will need to download one of the following images depending upon which display you are using:**
+**You will need to download one of the following images depending upon which display you are using:**
 
 * [Raspberry Pi Zero W with 1.3" display](https://drive.google.com/file/d/1vukrPMTKi5wfDWzsYp8qWlQ3P56h42mr/view?usp=sharing) (best for the Beskar gauntlet)
 * [Raspberry Pi Zero W with 1.14" display](https://drive.google.com/file/d/1l98J3hf_Yy0vpeedQ-yXtrtsyNcRdKSh/view?usp=sharing) (best for the pre-Beskar gauntlet)
 
-**1b. Now we will need to flash the image to the SD card**
+**Now we will need to flash the image to the SD card**
 
 - Download [balenaEtcher](https://www.balena.io/etcher/) and install it on your PC or Mac
 - Connect an SD card reader with the SD card inside
