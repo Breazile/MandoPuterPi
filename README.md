@@ -102,10 +102,10 @@ Raspberry Pin | LCD Pin
 ------------ | -------------
 1 - 3.3 VDC | Vin (do not use 3V)
 9 - GND | GND
-23 - SPI SCLK | SCK
 19 - SPI MOSI | MOSI or SI
-24 - SPI CE0 | TFTCS or TCS
 22 - GPIO6 | DC or D/C
+23 - SPI SCLK | SCK
+24 - SPI CE0 | TFTCS or TCS
 
 * Raspberry Pi pinout details are documented [here](https://pi4j.com/1.2/pins/model-zerow-rev1.html)
 * The MandoPuter Pi supports displays connected via SPI port with the ST7789 chipset. Other SPI displays are possible with different chips, and I will evaluate other options if they are needed. We do not use a display connected through the HDMI port other than configuring the sequence.
