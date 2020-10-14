@@ -60,7 +60,7 @@ That's it, no need to write any code or use any other fancy tools. The default s
 
 ### 1a. Raspberry Pi Zero W Setup
 
-These steps only apply to the **Raspberry Pi Zero W** board (Wi-Fi version). If you have a **Raspberry Pi Zero** follow the steps in 1b below. Setup is simple, we will complete the following:
+These steps only apply to the **Raspberry Pi Zero W** board (Wi-Fi version). If you have a **Raspberry Pi Zero** follow the steps in **1b** below. Setup is simple, we will complete the following:
 1) Download the right image :floppy_disk: to your PC and flash it to the SD card
 2) Customize your Wi-Fi setting, so you can access it remotely. This is not required, but another way to connect and configure your MandoPuter if you do not have a keyboard and monitor connected to it
 3) Insert the SD card into the Pi
@@ -86,7 +86,7 @@ As an alternative you can use dd on GNU/Linux or macOS: Change the path to your 
 
 ### 1b. Raspberry Pi Zero Setup
 
-These steps only apply to the **Raspberry Pi Zero** board (no Wi-Fi version). If you have a **Raspberry Pi Zero W** follow steps in 1a above. Setup is simple, we will complete these steps:
+These steps only apply to the **Raspberry Pi Zero** board (no Wi-Fi version). If you have a **Raspberry Pi Zero W** follow steps in **1a** above. Setup is simple, we will complete these steps:
 1) Download the right image :floppy_disk: to your PC and flash it to the SD card
 2) Insert the SD card into the Pi
 
