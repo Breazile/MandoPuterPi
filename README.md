@@ -80,17 +80,32 @@ These steps only apply to the **Raspberry Pi Zero W** board (Wi-Fi version). If 
 
 As an alternative you can use dd on GNU/Linux or macOS: Change the path to your image file, /dev/sdcard is the path to your SD card device
 
-**2. Configure your Wi-Fi by copying the wpa_supplicant.conf file to the root of your SD card.** More details [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
+**Configure your Wi-Fi by copying the wpa_supplicant.conf file to the root of your SD card.** More details [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
 
-**3. Insert the SD card into the Raspberry Pi** You can power it up to see if it will boot if you connect it to an external monitor. If not go to step 2 below and solder the LCD. 
+**Insert the SD card into the Raspberry Pi** You can power it up to see if it will boot if you connect it to an external monitor. If not go to step 2 below and solder the LCD. 
 
 ### 1b. Raspberry Pi Zero Setup
 
-WORK IN PROGRESS - I will add details once I have my Pi Zero board and create the images
-
 These steps only apply to the **Raspberry Pi Zero** board (no Wi-Fi version). If you have a **Raspberry Pi Zero W** follow steps in 1a above. Setup is simple, we will complete these steps:
-- Download the right image to your PC and flash it to the SD card
-- Insert the SD card into the Pi and power on
+1) Download the right image :floppy_disk: to your PC and flash it to the SD card
+2) Insert the SD card into the Pi
+
+**You will need to download one of the following images depending upon which display you are using:**
+
+* [Raspberry Pi Zero with 1.3" display](https://drive.google.com/file/d/1vukrPMTKi5wfDWzsYp8qWlQ3P56h42mr/view?usp=sharing) (best for the Beskar gauntlet)
+* [Raspberry Pi Zero with 1.14" display](https://drive.google.com/file/d/1l98J3hf_Yy0vpeedQ-yXtrtsyNcRdKSh/view?usp=sharing) (best for the pre-Beskar gauntlet)
+
+**Now we will need to flash the image to the SD card**
+
+- Download [balenaEtcher](https://www.balena.io/etcher/) and install it on your PC or Mac
+- Connect an SD card reader with the SD card inside
+- Open balenaEtcher and select from your hard drive the Raspberry Pi .img or .zip file you wish to write to the SD card
+- Select the SD card you wish to write your image to
+- Review your selections, then click Flash! to begin writing data to the SD card
+
+As an alternative you can use dd on GNU/Linux or macOS: Change the path to your image file, /dev/sdcard is the path to your SD card device
+
+**Insert the SD card into the Raspberry Pi** You can power it up to see if it will boot if you connect it to an external monitor. If not go to step 2 below and solder the LCD. 
 
 ### 2. Solder the LCD
 
