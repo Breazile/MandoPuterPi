@@ -103,7 +103,7 @@ Raspberry Pin | LCD Pin
 1 - 3.3 VDC | Vin (do not use 3V)
 9 - GND | GND
 23 - SPI SCLK | SCK
-21 - SPI MIMO | MOSI or SI
+19 - SPI MOSI | MOSI or SI
 24 - SPI CE0 | TFTCS or TCS
 22 - GPIO6 | DC or D/C
 
